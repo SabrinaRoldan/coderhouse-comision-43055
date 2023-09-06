@@ -1,0 +1,52 @@
+/*****************************Variables, mixings y Funciones*****************************/
+@import "./base/reset";
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+/*****************************Código*****************************/
+/*Body*/
+@import "./layout/body";
+
+/*Header*/
+@import "./layout/header";
+
+/*Main General*/
+@import "./layout/main";
+
+/*Main Home*/
+@import "./layout/main-index";
+
+/*Main Productos*/
+@import "./layout/main-productos";
+
+/*Main Sobre Nosotros*/
+@import "./layout/main-sobreNosotros";
+
+/*Main Nuestros Clientes*/
+@import "./layout/main-nuestrosClientes";
+
+/*Main Contacto*/
+@import "./layout/main-contacto";
+
+/*Main 404*/
+@import "./layout/main-404";
+
+/*Footer*/
+@import "./layout/footer";
+
+/*****************************Responsive*****************************/
+/*1440*/
+@import "./layout/mediaQuery/media1440";
+
+/*1024*/
+@import "./layout/mediaQuery/media1024";
+
+/*768*/
+@import "./layout/mediaQuery/media768";
+
+/*425*/
+@import "./layout/mediaQuery/media425";
+
+/*320*/
+@import "./layout/mediaQuery/media320";

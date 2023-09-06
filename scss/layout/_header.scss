@@ -1,0 +1,77 @@
+header{
+    display: flex;
+    flex-direction: row;
+    grid-area: header;
+    margin-top: auto;
+    margin-bottom: 3.125rem;
+    nav{
+        display: block;
+        background-color: $color-menues;
+        padding: 1.5625rem 1.25rem 1.5625rem 1.25rem;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+    }
+}
+
+.logo{
+    width: 9.375rem;
+    margin-left: 1.875rem;
+    position:sticky;
+    margin-top: 2.1875rem;
+    left: .625rem;
+}
+
+.tituloLogo {
+    display: flex;
+    list-style: none;
+    flex-direction:row;
+    justify-content: left;
+    position: absolute;
+    top: 3.125rem;
+    left: 11.25rem;
+    text-shadow: $menu-text-shadow;
+    font-size: 3.125rem;
+    font-weight: bold;
+    font-family: $font-family;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    flex-direction:row;
+    justify-content: left;
+
+}
+
+.menu{
+    color: azure;
+    padding: 1.25rem;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: $menu-text-shadow;
+    font-family: $font-family;
+    transition: all 0.3s ease;
+    &:hover,&.active{
+        background-color: rgba(218, 77, 77, 0.383);
+        border-radius: $border-radious-text;
+        font-weight: bolder;
+    }
+}
+
+.menu-btn{
+    img{
+        width: 1.875rem;
+        display: none;
+        cursor: pointer;
+    }
+}
+
+#click{
+    display: none;
+}

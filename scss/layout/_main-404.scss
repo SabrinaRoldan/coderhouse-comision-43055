@@ -1,0 +1,18 @@
+.error{
+    display: grid;
+    h1{
+        font-family: $font-family;
+        font-weight: bolder;
+        font-size: 6.25rem;
+        text-align: center;
+    }
+    img{
+        image-resolution: 100%;
+        justify-self: center;
+        align-self: center;
+        border-radius: 50%;
+        border-style: groove;
+        border-width: .625rem;
+        border-color: $border-color-img;
+    }
+}
